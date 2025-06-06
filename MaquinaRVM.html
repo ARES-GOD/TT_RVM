@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias por Reciclar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #E0F4E0;
+            background-image: url('Fondo.jpg'); /* Fondo ecológico opcional */
+            background-size: cover;
+            color: #155724;
+            text-align: center;
+        }
+        .contenedor {
+            margin-top: 8vh;
+            padding: 2em;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 12px;
+            width: 80%;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        .saldo {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-top: 1em;
+            color: #28a745;
+        }
+        .mensaje {
+            font-size: 1.2em;
+            margin-top: 1em;
+        }
+        .emoji {
+            font-size: 3em;
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>🌿¡Felicidades por tu ayuda! 🌿</h1>
+        <p class="mensaje">Durante este proceso reciclaste materiales que equivalen a:</p>
+        <div class="saldo">${saldo_actual} puntos</div>
+        <p class="mensaje">¡Gracias por contribuir al cuidado del planeta!<br>
+        Sigue reciclando y comparte esta experiencia.</p>
+        <div class="emoji">🌱🧳🚀</div>
+    </div>
+</body>
+<script src="main.js" defer></script>
+</html>
